@@ -1,0 +1,23 @@
+prompt = " > "
+
+class Beverages:
+    def __init__(self, name, type, size, price):
+        self.name = name
+        self.type = type
+        self.size = size
+        self.price = price
+
+class CoffeeMachine:
+    def __init__(self):
+        self.items = []
+
+    def selectBeverage(self, item):
+        self.items.append(item)
+
+
+
+
+
+price_x = {"small" : 9.95, "medium" : 14.95 , "large" : 19.95}
+price_y = {"small" : 14.95, "medium" : 19.95 , "large" : 24.95}
+price_z = {"small" : 19.95, "medium" : 24.95 , "large" : 29.95}
